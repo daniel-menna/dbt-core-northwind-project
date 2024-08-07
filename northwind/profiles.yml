@@ -1,7 +1,7 @@
-northwind_dbt:
+northwind:
   outputs:
     dev:
-      dbname: northwind_sql
+      dbname: northwind
       host: localhost
       pass: postgres
       port: 5432
@@ -9,5 +9,5 @@ northwind_dbt:
       threads: 1
       type: postgres
       user: postgres
-  target: dev
+    target: dev
 
